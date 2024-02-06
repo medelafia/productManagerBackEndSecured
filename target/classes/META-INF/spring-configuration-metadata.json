@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.example.crud_backend.security.config.RsaKeysConfig",
+      "sourceType": "com.example.crud_backend.security.config.RsaKeysConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.example.crud_backend.security.config.RsaKeysConfig"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.example.crud_backend.security.config.RsaKeysConfig"
+    }
+  ],
+  "hints": []
+}
